@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  margin-top: 2.5%;
+}
+
+.Template {
+  margin: auto;
+  height: 90vh;
+  width: 80%;
+  border-radius: 45px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.Header {
+  margin-bottom: 2.5%;
+  border-radius: 45px 45px 0px 0px;
+  ;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+Header h1 {
+  padding: 10px;
+}
+
+.Header button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cards {
+  margin: 10px 50px 10px 30vh;
+  background-color: #a8a7a7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  height: 6vh;
+  width: 50vh;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+
+.habit-card {
+  margin: 1%;
+  background-color: #a8a7a7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+}
+
+.habit-dot {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-dot.completed {
+  background-color: #4caf50;
+  /* green when active */
+  border-color: #4caf50;
+}
+
+.my-table {
+  border: 100%;
+
+}
