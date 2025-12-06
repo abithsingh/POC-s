@@ -1,0 +1,62 @@
+.App {
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(85, 214, 250);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 5% 0 5%;
+  flex-direction: row;
+}
+header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+table {
+  justify-self: center;
+  background-color: rgb(191, 241, 255);
+  width: 50%;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+th {
+  font-size: 30px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calendar-box {
+  border-radius: 10px;
+  background-color: rgb(158, 233, 254);
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+}
+.verses {
+  /* border: 2px;
+  font-family: "Times New Roman", Times, serif;
+  border-style: dashed;
+  padding: 5px; */
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: linear-gradient(#e0f6fe, #addae0) padding-box,
+    linear-gradient(90deg, #86c0f3, #014064) border-box;
+  padding: 10px;
+}
+.today {
+  background-color: rgba(255, 188, 27);
+  padding: 6px 15px;
+  border-radius: 50%;
+}
