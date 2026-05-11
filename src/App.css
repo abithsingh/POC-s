@@ -1,0 +1,30 @@
+.TaskCard {
+    background-color: rgb(183, 174, 174);
+    display: inline-block;
+    width: 20vw;
+    min-height: 15vh;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.15s;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.TaskCard:hover {
+    border-color: #666;
+}
+
+.RemoveCardBtn {
+    border: none;
+    background: none;
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.RemoveCardBtn:hover {
+    color: red;
+}
